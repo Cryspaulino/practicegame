@@ -47,6 +47,8 @@ class GameManager
     /// </summary>
     private void InitializeGame()
     {
+        Ball b1 = new Ball(SCREEN_WIDTH/2, SCREEN_HEIGHT/2);
+        _gameObjects.Add(b1);
 
     }
 
